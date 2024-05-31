@@ -14,3 +14,5 @@ git push -u origin main
 
 git config --global user.name "Ednei P. de Melo"
 git config --global user.email root@darkstar.eti.br
+
+Blá, blá, blá...
