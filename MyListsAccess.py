@@ -6,7 +6,7 @@ print("Eis, a nossa recomendação:", MARMITA)
 
 RESPOSTA = input("Você quer montar uma marmita diferente (S/N)?")
 if RESPOSTA == "S":
-    for X in range(0, 5):
+    for X in range(len(MARMITA)):
         print(f'Digite o {X+1}o. item do cardápio:')
         MARMITA[X] = input()
     print("A marmita montada foi:", MARMITA)
