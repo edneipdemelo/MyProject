@@ -1,6 +1,25 @@
 # Demonstração de métodos em listas...
-NUMEROS = [1, 3, 2, 4, 5, 3, 3, 2, 5]
-PALAVRAS = ["olá", "alô", "hei", "uau", "ops"]
+INSS = ["Maria", "Manoel", "José", "Isabela"]
+print("Eis, a fila do INSS:", INSS)
 
-print("Quantos 3tem na lista Números?", NUMEROS.count(3))
-print("Quantos olá tem na lista Palavras?", PALAVRAS.count("alô"))
+NOVO = input("Insira mais uma pessoa: ")
+INSS.append(NOVO)
+print("conferindo a nova lista: ", INSS)
+
+print("Vou tirar a última pessoa desta lista...")
+ESPECIAL = INSS.pop()
+
+print("Agora, vou colocá-la na frente de todos!")
+INSS.insert(0, ESPECIAL)
+print("Conferindo a lista: ", INSS)
+
+print("Maria não gostou e reclamou...")
+INSS.remove("Maria")
+print("E agora, ela saiu 'Pê da vida'", INSS)
+
+print("Para não ter mais reclamação, vamos atender...")
+INSS.sort()
+print("... em ordem alfabética:", INSS)
+
+print("Onde está esta nova pessoa chamada", ESPECIAL, "?")
+print("Ela agora ficou na posição", INSS.index(ESPECIAL)+1, "!")
