@@ -1,6 +1,4 @@
 # Demonstração de expressões complexas
-
-# Declaração de variáveis que iremos usar...
 X = 10; Y = 20; Z = 30
 
 VALOR = X * (Y / 10 + Z / 10) - 25
