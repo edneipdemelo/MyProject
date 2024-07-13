@@ -1,0 +1,3 @@
+# Meu primeiro programa escrito em Python…
+print("Olá Mundo!")
+print("Ok!")
