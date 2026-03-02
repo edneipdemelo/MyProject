@@ -6,3 +6,5 @@ R = X + 5
 print("O resultado #1 é: ", R)
 R = Y - 3
 print("O resultado #2 é: ", R)
+
+# Experimentar o GitHub...
